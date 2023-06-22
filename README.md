@@ -80,6 +80,7 @@ Please note that the security and privacy of the generated mnemonic phrases and 
 ====================================
 
 bconverter.py - reads the contents of a file named "valid.mnemonicsb.txt" and extracts mnemonics from each line for the mnemonics2pkey.py
+
 mnemonics2pkey.py allows you to convert mnemonic phrases into their corresponding private keys and wallet addresses for cryptocurrency wallets. The generated private keys can be used to access the respective wallets without the need to rely on external services.
 
 --------------------------------------------------
