@@ -135,8 +135,13 @@ Disclaimer
 ====================================
 # Recommended versions for dependencies:
 ====================================
+
 bip32utils==0.3.post4
+
 eth-account==0.9.0
+
 requests==2.27.1
+
 mnemonic==0.19
+
 requests==2.27.1
