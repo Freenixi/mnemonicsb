@@ -2,7 +2,7 @@
  This Python script generates mnemonic phrases, derives Ethereum addresses, and checks their balance using etherscan.io API. It saves results in a text file and SQLite database, offering independent address generation without 3rd-party reliance, facilitating quick creation of multiple addresses with 12-word phrases and private keys.
 
 ====================================
-=============README=================
+============ README ================
 ====================================
 # Mnemonic Phrase Address Checker "ala Reverse Mining" - (mnemonicsb.py)
 ====================================
@@ -73,11 +73,11 @@ Notes:
 
 Please note that the security and privacy of the generated mnemonic phrases and derived addresses are the responsibility of the users. Exercise caution when handling and storing sensitive information.
 
-==================================================
-===================README=========================
-==================================================
+====================================
+============ README ================
+====================================
 # EXTRA - Mnemonics to Private Key Conversion - (bconverter.py, mnemonics2pkey.py)
-==================================================
+====================================
 
 bconverter.py - reads the contents of a file named "valid.mnemonicsb.txt" and extracts mnemonics from each line for the mnemonics2pkey.py
 mnemonics2pkey.py allows you to convert mnemonic phrases into their corresponding private keys and wallet addresses for cryptocurrency wallets. The generated private keys can be used to access the respective wallets without the need to rely on external services.
@@ -129,11 +129,11 @@ Disclaimer
 - The creators and contributors of this script are not responsible for any misuse or unauthorized access to wallets.
 
 
-==================================================
-===================README=========================
-==================================================
+====================================
+============ README ================
+====================================
 # Recommended versions for dependencies:
-==================================================
+====================================
 bip32utils==0.3.post4
 eth-account==0.9.0
 requests==2.27.1
